@@ -1,0 +1,43 @@
+/* ELEMENTI GENERICI. */
+*{
+    box-sizing: border-box;
+    margin: 0PX;
+    padding: 0PX;
+}
+
+.flex{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER. */
+
+.container{
+    background-color: black;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+
+}
+
+.speaker{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
